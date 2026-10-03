@@ -1,0 +1,20 @@
+[06:40:58] [LOG] mirror C:\Users\isaia\AppData\Local\Temp\ContractorsESP.log
+[06:40:58] ========== APPLICATION START ==========
+[06:40:58] [BUILD] Compiled Oct  2 2026 19:27:34, PID=18344
+[06:40:58] [STARTUP] GDI+ status=0
+[06:40:58] [UPDATE] manifest loader=6 exe=79a8f042cae0 steam=f3ec30255256 meta=3dc59088c919
+[06:40:58] [UPDATE] exe current (local 79a8f042cae0 remote 79a8f042cae0)
+[06:40:58] [UPDATE] banner steamStale=0 metaStale=0
+[06:40:59] [KEY] accept days=3647 timeleft=315061992 expiry=2106096851 plan=default resp={"success":true,"code":68,"message":"Logged in!","info":{"username":"KEYAUTH-XjyLIa-S9n2XE-OIAH7M-Erupl6-d0nBgI-nA4IBM","subscriptions":[{"subscription":"default","key":"KEYAUTH-XjyLIa-S9n2XE-OIAH7M-Erupl6-d0nBgI-nA4IBM","expiry":"2106096851","timeleft":315061992}],"ip":"47.156.37.121","hwid":"{15a6a535-9515-11f1-b7ed-806e6f6e6963}","createdate":"1790527592","lastlogin":"1791034859"},"nonce":"6747
+[06:46:20] [AUTH] Key=KEYAUTH-XjyLIa-S9n2XE-OIAH7M-Erupl6-d0nBgI-nA4IBM  Mode=META INTERNAL
+[06:46:20] [MODE] Meta Internal — injecting DLL
+[06:46:20] [GAME] candidate ContractorsShowdown.exe pid=17540 rank=7 score=1006 path=C:\Program Files\Meta Horizon\Software\Software\caveman-game-production-contractors-showdown-hrjitv\ContractorsShowdown.exe
+[06:46:20] [GAME] candidate Contractors_Showdown_Oculus.exe pid=14760 rank=3 score=-998 path=C:\Program Files\Meta Horizon\Software\Software\caveman-game-production-contractors-showdown-hrjitv\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Oculus.exe
+[06:46:20] [INJECT] Target Contractors_Showdown_Oculus.exe pid=14760 image=C:\Program Files\Meta Horizon\Software\Software\caveman-game-production-contractors-showdown-hrjitv\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Oculus.exe
+[06:46:20] [META] runtime flag set for target C:\Program Files\Meta Horizon\Software\Software\caveman-game-production-contractors-showdown-hrjitv\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Oculus.exe
+[06:46:20] [INJECT] payload=Meta build (1410 KB), runtime flag=set
+[06:46:20] [INJECT] NtLoadDriver status=0x00000000
+[06:46:20] [INJECT] DLL C:\Users\isaia\AppData\Local\Temp\ContractorsESP.dll bytes, driver handle=0x00000000000002F0
+[06:46:21] [INJECT] IOCTL accepted, bytes returned=0
+[06:46:27] [INJECT] module check=-1
+[06:46:27] [INJECT] target not inspectable; relying on the driver's status
