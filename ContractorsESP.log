@@ -1,12 +1,35 @@
-[18:41:06] [LOG] mirror C:\Users\isaia\AppData\Local\Temp\ContractorsESP.log
-[18:41:06] ========== APPLICATION START ==========
-[18:41:06] [BUILD] Compiled Oct 10 2026 18:06:45, PID=5936
-[18:41:06] [STARTUP] GDI+ status=0
-[18:41:06] [UPDATE] manifest loader=11 exe=b3ed5c30e89c steam=a52dfbe12e51 meta=c06764f562ee
-[18:41:06] [UPDATE] exe current (local b3ed5c30e89c remote b3ed5c30e89c)
-[18:41:06] [UPDATE] banner steamStale=0 metaStale=0
-[18:41:06] [KEY] PWF login rejected unenv=0 resp={"error":"service_unavailable","message":"PWF Auth is temporarily unavailable due to an issue with our hosting provider. Please try again shortly.","status":"https://t.me/pwfauthnews"}
-[18:41:08] [KEY] PUNK: keys.lic signature INVALID (tampered or wrong key)
-[18:41:27] [KEY] PUNK: keys.lic signature INVALID (tampered or wrong key)
-[19:15:25] [KEY] PUNK: keys.lic signature INVALID (tampered or wrong key)
-[19:22:01] [AUTH] User cancelled or denied — exiting
+[13:29:46] [LOG] mirror C:\Users\isaia\AppData\Local\Temp\ContractorsESP.log
+[13:29:46] ========== APPLICATION START ==========
+[13:29:46] [BUILD] Compiled Nov  4 2026 13:24:49, PID=18908
+[13:29:46] [STARTUP] GDI+ status=0
+[13:29:46] [UPDATE] bypassed via dev sentinel
+[13:29:46] [KEY] machine HWID {15a6a535-9515-11f1-b7ed-806e6f6e6963}  (this is what a key gets bound to)
+[13:29:46] [KEY] PUNK: key not in signed list
+[13:29:46] [KEY] PUNK not in keys.lic -- trying the PWF app
+[13:29:47] [KEY] accept days=-1 timeleft=-1 expiry= plan= resp={"success":true,"message":"Login successful!","session_id":"22893b59-3c7d-4287-bfff-98a108cc8763","user":{"license_key":"PUNK-MKVA-AS1I-Z1Z","key_type":"lifetime","duration":0,"hwid":"2867b603cfcbb13edb3306843f202ea17109580b7fd7268b738b9272a959f3a9","activated_at":"2026-10-26T01:48:50Z","expires_at":null,"days_remaining":null,"status":"active"},"seller":{"type":"developer","name":"EZ","contact":nu
+[13:29:48] [AUTH] Key=PUNK-MKVA-AS1I-Z1Z  Product=MAX  Mode=INTERNAL
+[13:30:56] [MODE] Internal — injecting DLL
+[13:30:56] [GAME] candidate ContractorsShowdown.exe pid=5076 rank=7 score=1006 path=C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\ContractorsShowdown.exe
+[13:30:56] [GAME] candidate Contractors_Showdown_Steam.exe pid=29936 rank=1 score=-1000 path=C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Steam.exe
+[13:30:56] [INJECT] Target Contractors_Showdown_Steam.exe pid=29936 image=C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Steam.exe
+[13:30:56] [META] runtime flag cleared for target C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Steam.exe
+[13:30:56] [INJECT] payload=Steam build (MAX) (2380 KB), runtime flag=cleared
+[13:30:56] [INJECT] hwid spoofer staged (144 KB)
+[13:30:56] [INJECT] NtLoadDriver status=0x00000000
+[13:30:56] [INJECT] DLL C:\Users\isaia\AppData\Local\Temp\ContractorsESP.dll bytes, driver handle=0x0000000000000330
+[13:30:57] [INJECT] hwid.dll 147456 bytes -> pid 29936 accepted (br=0)
+[13:30:58] [INJECT] IOCTL accepted, bytes returned=0
+[13:30:58] [CHECK] ContractorsESP.dll not visible: toolhelp=5 enumproc=5
+[13:30:59] [CHECK] ContractorsESP.dll not visible: toolhelp=5 enumproc=5
+[13:30:59] [CHECK] ContractorsESP.dll not visible: toolhelp=5 enumproc=5
+[13:31:00] [CHECK] ContractorsESP.dll not visible: toolhelp=5 enumproc=5
+[13:31:00] [CHECK] ContractorsESP.dll not visible: toolhelp=5 enumproc=5
+[13:31:01] [CHECK] ContractorsESP.dll not visible: toolhelp=5 enumproc=5
+[13:31:01] [CHECK] ContractorsESP.dll not visible: toolhelp=5 enumproc=5
+[13:31:02] [CHECK] ContractorsESP.dll not visible: toolhelp=5 enumproc=5
+[13:31:02] [CHECK] ContractorsESP.dll not visible: toolhelp=5 enumproc=5
+[13:31:03] [CHECK] ContractorsESP.dll not visible: toolhelp=5 enumproc=5
+[13:31:03] [INJECT] module check=-1
+[13:31:03] [CHECK] hwid.dll not visible: toolhelp=5 enumproc=5
+[13:31:03] [INJECT] hwid module check=-1 (1 = spoofer active in-process)
+[13:31:03] [INJECT] target not inspectable; toolhelp=5 enumproc=5
